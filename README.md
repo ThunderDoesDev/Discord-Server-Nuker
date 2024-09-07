@@ -106,9 +106,11 @@ const WHITELIST = [
 
 Both versions of the bot log the results of each operation to a log file, which will be created in the root directory, named with the current date and time.
 
-## Contribution
+## Support
 
-Feel free to contribute to this project. If you encounter any issues, feel free to open an issue or submit a pull request.
+For support, issues, or enhancements, please open an issue in this repository or join our discord support server.
+
+[Join Support Server](https://discord.gg/thunderdoesdev)
 
 ## License
 
