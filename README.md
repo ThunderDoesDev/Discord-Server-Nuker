@@ -1,7 +1,7 @@
 
 # Discord Nuke Bot
 
-This repository contains two versions of a Discord Nuke Bot that automates mass deletion of roles, channels, banning members, and more. It also includes features like a **user whitelist** and **progress bar** to track the status of the operations.
+This repository contains two versions of a Discord Nuke Bot that automates mass deletion of roles, channels, banning members, and more. It also includes features like a **user whitelist** and a **progress bar** to track the status of the operations.
 
 - Python Version: Uses `discord.py`
 - Node.js Version: Uses `discord.js`
@@ -18,22 +18,7 @@ This repository contains two versions of a Discord Nuke Bot that automates mass 
 - Progress bar to monitor operation status in the console.
 - User whitelist to exempt certain users from banning or kicking.
 
-## Requirements
-
-Both versions of the bot have different requirements based on the programming language.
-
-### Python Version (`discord.py`)
-
-#### Prerequisites
-
-- Python 3.8+
-- Install the required dependencies:
-
-```bash
-pip install discord.py tqdm
-```
-
-#### Running the Python Bot
+## Running the Python Version (`discord.py`)
 
 1. Clone the repository:
 
@@ -42,34 +27,23 @@ pip install discord.py tqdm
     cd discord-nuke-bot
     ```
 
-2. Install the dependencies:
+2. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install discord.py tqdm logging os asyncio
     ```
 
-3. Create a `token.txt` file in the root directory and add your bot token inside, or enter it when prompted.
-
-4. Run the bot:
+3. Run the bot:
 
     ```bash
     python bot.py
     ```
 
+4. Enter your bot token when prompted. The bot will create a `token.txt` file to store the token for future runs.
+
 5. The bot will prompt you for the **Server ID** and a **nuke option** to execute. Follow the instructions in the console to proceed.
 
-### Node.js Version (`discord.js`)
-
-#### Prerequisites
-
-- Node.js 16.6.0 or higher
-- Install the required dependencies:
-
-```bash
-npm install
-```
-
-#### Running the Node.js Bot
+## Running the Node.js Version (`discord.js`)
 
 1. Clone the repository:
 
@@ -78,19 +52,19 @@ npm install
     cd discord-nuke-bot
     ```
 
-2. Install the dependencies:
+2. Install the required dependencies:
 
     ```bash
-    npm install
+    npm install discord.js fs cli-progress readline path
     ```
 
-3. Create a `token.txt` file in the root directory and add your bot token inside, or enter it when prompted.
-
-4. Run the bot:
+3. Run the bot:
 
     ```bash
     node bot.js
     ```
+
+4. Enter your bot token when prompted. The bot will create a `token.txt` file to store the token for future runs.
 
 5. The bot will prompt you for the **Server ID** and a **nuke option** to execute. Follow the instructions in the console to proceed.
 
