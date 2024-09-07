@@ -114,7 +114,7 @@ For support, issues, or enhancements, please open an issue in this repository or
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the See the [LICENSE](LICENSE) file for more details.
 
 ## Disclaimer
 
