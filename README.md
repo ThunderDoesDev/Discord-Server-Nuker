@@ -23,7 +23,7 @@ This repository contains two versions of a Discord Nuke Bot that automates mass 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/discord-nuke-bot.git
+    git clone https://github.com/ThunderDoesDev/Discord-Server-Nuker.git
     cd discord-nuke-bot
     ```
 
@@ -48,7 +48,7 @@ This repository contains two versions of a Discord Nuke Bot that automates mass 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/discord-nuke-bot.git
+    git clone https://github.com/ThunderDoesDev/Discord-Server-Nuker.git
     cd discord-nuke-bot
     ```
 
