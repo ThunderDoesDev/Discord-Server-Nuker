@@ -37,7 +37,7 @@ client = discord.Client(intents=intents)
 TOKEN_FILE = 'token.txt'
 
 WHITELIST = [
-    852521383006961687
+    0000000000000000
 ]
 
 async def get_token():
