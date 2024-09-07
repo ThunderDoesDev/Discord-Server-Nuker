@@ -3,7 +3,7 @@ import logging
 import os
 from datetime import datetime
 import asyncio
-from tqdm import tqdm  # Add tqdm for progress bar
+from tqdm import tqdm
 
 BANNER = """                                                                                                                
  @@@@@@   @@@@@@@@  @@@@@@@   @@@  @@@  @@@@@@@@  @@@@@@@      @@@  @@@  @@@  @@@  @@@  @@@  @@@@@@@@  @@@@@@@   
