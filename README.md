@@ -24,7 +24,7 @@ This repository contains two versions of a Discord Nuke Bot that automates mass 
 
     ```bash
     git clone https://github.com/ThunderDoesDev/Discord-Server-Nuker.git
-    cd discord-nuke-bot
+    cd Discord-Server-Nuker
     ```
 
 2. Install the required dependencies:
@@ -49,7 +49,7 @@ This repository contains two versions of a Discord Nuke Bot that automates mass 
 
     ```bash
     git clone https://github.com/ThunderDoesDev/Discord-Server-Nuker.git
-    cd discord-nuke-bot
+    cd Discord-Server-Nuker
     ```
 
 2. Install the required dependencies:
