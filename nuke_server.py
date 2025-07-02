@@ -40,6 +40,10 @@ WHITELIST = [
     0000000000000000
 ]
 
+async def async_input(prompt: str) -> str:
+    loop = asyncio.get_running_loop()
+    return await loop.run_in_executor(None, input, prompt)
+
 async def get_token():
     if os.path.exists(TOKEN_FILE):
         with open(TOKEN_FILE, 'r') as file:
@@ -214,8 +218,8 @@ async def on_ready():
         logging.info(f"Connected to the server: {guild.name}")
 
         print("\nOptions:\n1. Nuke all (without kicking members)\n2. Delete channels\n3. Delete roles\n4. Ban members\n5. Kick members\n6. Delete emojis\n7. Delete server\n8. Delete invites\n9. Delete webhooks\n10. Spam message\n11. Lockdown channels")
-        option = input("Enter nuke option number (1-11): ").strip()
-        await nuke(guild, option)
+        option = await async_input("Enter nuke option number (1-11): ")
+        await nuke(guild, option.strip())
     else:
         print("Server not found.")
         logging.error("Server not found.")
